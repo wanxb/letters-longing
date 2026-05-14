@@ -1,0 +1,10 @@
+[
+  { "id": "tag-love", "slug": "love", "name": "爱情", "type": "relation" },
+  { "id": "tag-family", "slug": "family", "name": "亲情", "type": "relation" },
+  { "id": "tag-friendship", "slug": "friendship", "name": "友情", "type": "relation" },
+  { "id": "tag-condolence", "slug": "condolence", "name": "慰问", "type": "relation" },
+  { "id": "tag-greeting", "slug": "greeting", "name": "问候", "type": "emotion" },
+  { "id": "tag-thanks", "slug": "thanks", "name": "感谢", "type": "emotion" },
+  { "id": "tag-respect", "slug": "respect", "name": "敬意", "type": "emotion" },
+  { "id": "tag-english", "slug": "english", "name": "英文", "type": "language" }
+]

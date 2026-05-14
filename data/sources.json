@@ -1,0 +1,32 @@
+[
+  {
+    "id": "source-001",
+    "name": "Wikisource: Letters of Jane Austen, Part 1, Letter 1",
+    "url": "https://en.wikisource.org/wiki/The_Novels_and_Letters_of_Jane_Austen/Volume_11/Letters_of_Jane_Austen%2C_Part_1/Letter_1",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "公开档案文本，作为公版书信整理来源。本站提供中文整理和短句摘录说明。",
+    "allowFullText": true,
+    "allowExcerpt": true
+  },
+  {
+    "id": "source-002",
+    "name": "Project Gutenberg: The Letters of Robert Browning and Elizabeth Barrett Barrett",
+    "url": "http://www.gutenberg.org/ebooks/16182",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "Project Gutenberg 公版文本，本站用于书信信息整理与短句摘录。",
+    "allowFullText": true,
+    "allowExcerpt": true
+  },
+  {
+    "id": "source-003",
+    "name": "Wikisource: Life and Works of Abraham Lincoln, Volume 8, Bixby, Mrs.",
+    "url": "https://en.wikisource.org/wiki/Life_and_Works_of_Abraham_Lincoln/Volume_8/Bixby,_Mrs.",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "公开档案文本，本站提供中文整理和语境说明。",
+    "allowFullText": true,
+    "allowExcerpt": true
+  }
+]

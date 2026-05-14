@@ -1,0 +1,24 @@
+[
+  {
+    "id": "topic-001",
+    "slug": "how-to-start-a-love-letter",
+    "title": "英文情书如何开头",
+    "description": "从公版书信中观察亲密而克制的英文情书开头。",
+    "body": "好的情书开头不一定要急着表白。它可以先保留礼貌，借称谓、感谢和回信的语气慢慢靠近对方。在伊丽莎白·巴雷特与罗伯特·勃朗宁的通信中，称谓既有分寸，也藏着温度。",
+    "tags": ["爱情", "英文", "开头"],
+    "relatedExcerptIds": ["ex-003", "ex-004"],
+    "relatedLetterIds": ["letter-002"],
+    "publishStatus": "published"
+  },
+  {
+    "id": "topic-002",
+    "slug": "formal-condolence-letter-endings",
+    "title": "慰问信的结尾，如何保持真诚与克制",
+    "description": "以林肯致比克斯比夫人为例，观察正式慰问信如何表达敬意。",
+    "body": "慰问信的难处在于，语言必须承认痛苦的重量，又不能用过多辞藻覆盖对方的悲伤。正式结尾里的 sincerely 与 respectfully，提供了一种克制但不冷淡的表达方式。",
+    "tags": ["慰问", "敬意", "英文"],
+    "relatedExcerptIds": ["ex-005", "ex-006"],
+    "relatedLetterIds": ["letter-003"],
+    "publishStatus": "published"
+  }
+]

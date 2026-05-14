@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+dist
+.env*
+*.tsbuildinfo
+public/search-index.json
+public/sitemap.xml
+public/robots.txt
+.next-dev*.log
