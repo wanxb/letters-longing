@@ -5,14 +5,14 @@
     "url": "https://en.wikisource.org/wiki/The_Novels_and_Letters_of_Jane_Austen/Volume_11/Letters_of_Jane_Austen%2C_Part_1/Letter_1",
     "sourceType": "PublicArchive",
     "copyrightStatus": "PublicDomain",
-    "licenseNote": "公开档案文本，作为公版书信整理来源。本站提供中文整理和短句摘录说明。",
+    "licenseNote": "英文维基文库公版书信文本，本站用于书信资料整理、中文释义与短句摘录。",
     "allowFullText": true,
     "allowExcerpt": true
   },
   {
     "id": "source-002",
     "name": "Project Gutenberg: The Letters of Robert Browning and Elizabeth Barrett Barrett",
-    "url": "http://www.gutenberg.org/ebooks/16182",
+    "url": "https://www.gutenberg.org/ebooks/16182",
     "sourceType": "PublicArchive",
     "copyrightStatus": "PublicDomain",
     "licenseNote": "Project Gutenberg 公版文本，本站用于书信信息整理与短句摘录。",
@@ -25,8 +25,148 @@
     "url": "https://en.wikisource.org/wiki/Life_and_Works_of_Abraham_Lincoln/Volume_8/Bixby,_Mrs.",
     "sourceType": "PublicArchive",
     "copyrightStatus": "PublicDomain",
-    "licenseNote": "公开档案文本，本站提供中文整理和语境说明。",
+    "licenseNote": "英文维基文库公版文本，本站提供中文整理和语境说明。",
     "allowFullText": true,
+    "allowExcerpt": true
+  },
+  {
+    "id": "source-004",
+    "name": "维基文库：与妻书",
+    "url": "https://zh.wikisource.org/zh-hans/%E4%B8%8E%E5%A6%BB%E4%B9%A6",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "林觉民原作已进入公有领域，维基文库页面说明作者逝世超过100年。",
+    "allowFullText": true,
+    "allowExcerpt": true
+  },
+  {
+    "id": "source-005",
+    "name": "维基文库：禀父书（林觉民）",
+    "url": "https://zh.wikisource.org/wiki/%E7%A8%9F%E7%88%B6%E6%9B%B8_%28%E6%9E%97%E8%A6%BA%E6%B0%91%29",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "林觉民写给父亲的诀别书，作者逝世超过100年，属于公有领域。",
+    "allowFullText": true,
+    "allowExcerpt": true
+  },
+  {
+    "id": "source-006",
+    "name": "维基文库：曾国藩家书/1",
+    "url": "https://zh.wikisource.org/zh-hans/%E6%9B%BE%E5%9C%8B%E8%97%A9%E5%AE%B6%E6%9B%B8/1",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "曾国藩家书公版整理文本，本站用于传统家书语气与短句摘录。",
+    "allowFullText": true,
+    "allowExcerpt": true
+  },
+  {
+    "id": "source-007",
+    "name": "维基文库：诫子书",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%AA%A1%E5%AD%90%E6%9B%B8",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "诸葛亮《诫子书》为古代公版文本，适合整理为训诫、劝学类书信短句。",
+    "allowFullText": true,
+    "allowExcerpt": true
+  },
+  {
+    "id": "source-008",
+    "name": "维基文库：与令娴女士等书",
+    "url": "https://zh.wikisource.org/zh-hans/%E4%B8%8E%E4%BB%A4%E5%A8%B4%E5%A5%B3%E5%A3%AB%E7%AD%89%E4%B9%A6",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "梁启超书信，维基文库作者页标注 Author-PD-old-80，本站仅做节选、解释和索引。",
+    "allowFullText": false,
+    "allowExcerpt": true
+  },
+  {
+    "id": "source-009",
+    "name": "维基文库：与元九书",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%88%87%E5%85%83%E4%B9%9D%E6%9B%B8",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "白居易写给元稹的文学书信，古代公版文本，本站用于友情、文学往还语气摘录。",
+    "allowFullText": false,
+    "allowExcerpt": true
+  },
+  {
+    "id": "source-010",
+    "name": "维基文库：De Profundis (Wilde, 1915) / Four Letters Written from Reading Prison",
+    "url": "https://en.wikisource.org/wiki/De_Profundis_%28Wilde%2C_1915%29/Four_Letters_Written_from_Reading_Prison",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "英文维基文库公版版本，本站仅摘录短句并提供中文说明。",
+    "allowFullText": false,
+    "allowExcerpt": true
+  },
+  {
+    "id": "source-011",
+    "name": "维基文库：曾国藩家书/2",
+    "url": "https://zh.wikisource.org/zh-hans/%E6%9B%BE%E5%9C%8B%E8%97%A9%E5%AE%B6%E6%9B%B8/2",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "曾国藩家书第二章，公版整理文本，本站用于家书、劝诫、处世短句摘录。",
+    "allowFullText": true,
+    "allowExcerpt": true
+  },
+  {
+    "id": "source-012",
+    "name": "维基文库：曾国藩家书/3",
+    "url": "https://zh.wikisource.org/zh-hans/%E6%9B%BE%E5%9C%8B%E8%97%A9%E5%AE%B6%E6%9B%B8/3",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "曾国藩家书第三章，公版整理文本，本站用于修身、治家与鼓励类短句摘录。",
+    "allowFullText": true,
+    "allowExcerpt": true
+  },
+  {
+    "id": "source-013",
+    "name": "维基文库：与韩荆州书",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%88%87%E9%9F%93%E8%8D%8A%E5%B7%9E%E6%9B%B8",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "李白《与韩荆州书》为唐代公版文本，本站用于荐书、陈情、敬意类表达摘录。",
+    "allowFullText": false,
+    "allowExcerpt": true
+  },
+  {
+    "id": "source-014",
+    "name": "维基文库：儿童新尺牍",
+    "url": "https://zh.wikisource.org/zh-hans/%E5%85%92%E7%AB%A5%E6%96%B0%E5%B0%BA%E7%89%98",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "1929 年民国儿童书信课本，维基文库公版文本，适合批量整理传统称呼、问安、结尾格式。",
+    "allowFullText": false,
+    "allowExcerpt": true
+  },
+  {
+    "id": "source-015",
+    "name": "Project Gutenberg: How to Write Letters",
+    "url": "https://www.gutenberg.org/ebooks/22222",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "Project Gutenberg 公版英文书信写作手册，本站用于英文开头、结尾和礼貌表达摘录。",
+    "allowFullText": false,
+    "allowExcerpt": true
+  },
+  {
+    "id": "source-016",
+    "name": "Project Gutenberg: The New Century Standard Letter-Writer",
+    "url": "https://www.gutenberg.org/ebooks/56911",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "Project Gutenberg 公版英文书信范本与写作手册，本站用于英文开头、结尾和常用书信用语摘录。",
+    "allowFullText": false,
+    "allowExcerpt": true
+  },
+  {
+    "id": "source-017",
+    "name": "Project Gutenberg: Putnam's Phrase Book",
+    "url": "https://www.gutenberg.org/ebooks/48441",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "Project Gutenberg 公版短语手册，本站仅抽取与书信结尾、礼貌表达相关的短句。",
+    "allowFullText": false,
     "allowExcerpt": true
   }
 ]

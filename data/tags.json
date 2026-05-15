@@ -3,8 +3,18 @@
   { "id": "tag-family", "slug": "family", "name": "亲情", "type": "relation" },
   { "id": "tag-friendship", "slug": "friendship", "name": "友情", "type": "relation" },
   { "id": "tag-condolence", "slug": "condolence", "name": "慰问", "type": "relation" },
+  { "id": "tag-mentorship", "slug": "mentorship", "name": "训诫", "type": "relation" },
+  { "id": "tag-public", "slug": "public", "name": "公开信", "type": "relation" },
   { "id": "tag-greeting", "slug": "greeting", "name": "问候", "type": "emotion" },
+  { "id": "tag-farewell", "slug": "farewell", "name": "诀别", "type": "emotion" },
   { "id": "tag-thanks", "slug": "thanks", "name": "感谢", "type": "emotion" },
   { "id": "tag-respect", "slug": "respect", "name": "敬意", "type": "emotion" },
-  { "id": "tag-english", "slug": "english", "name": "英文", "type": "language" }
+  { "id": "tag-tender", "slug": "tender", "name": "温柔", "type": "emotion" },
+  { "id": "tag-restraint", "slug": "restraint", "name": "克制", "type": "emotion" },
+  { "id": "tag-earnest", "slug": "earnest", "name": "诚恳", "type": "emotion" },
+  { "id": "tag-chinese", "slug": "chinese", "name": "中文", "type": "language" },
+  { "id": "tag-english", "slug": "english", "name": "英文", "type": "language" },
+  { "id": "tag-opening", "slug": "opening", "name": "开头", "type": "topic" },
+  { "id": "tag-closing", "slug": "closing", "name": "结尾", "type": "topic" },
+  { "id": "tag-classical", "slug": "classical", "name": "古文", "type": "topic" }
 ]

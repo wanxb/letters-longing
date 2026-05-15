@@ -1,13 +1,13 @@
 [
   {
     "id": "topic-001",
-    "slug": "how-to-start-a-love-letter",
-    "title": "英文情书如何开头",
-    "description": "从公版书信中观察亲密而克制的英文情书开头。",
-    "body": "好的情书开头不一定要急着表白。它可以先保留礼貌，借称谓、感谢和回信的语气慢慢靠近对方。在伊丽莎白·巴雷特与罗伯特·勃朗宁的通信中，称谓既有分寸，也藏着温度。",
-    "tags": ["爱情", "英文", "开头"],
-    "relatedExcerptIds": ["ex-003", "ex-004"],
-    "relatedLetterIds": ["letter-002"],
+    "slug": "traditional-chinese-letter-openings",
+    "title": "传统中文书信如何开头",
+    "description": "从家书、情书、训诫书中观察中文书信开头的称谓、礼数与情感距离。",
+    "body": "传统中文书信的开头常常先确认关系：写给妻子，可以是“卿卿如晤”；写给父母，则要先自称、叩禀、祝安；写给友人，则可以直接呼名。好的开头不是固定模板，而是关系、场合和情绪的合奏。",
+    "tags": ["中文", "开头", "古文", "亲情", "爱情"],
+    "relatedExcerptIds": ["ex-009", "ex-012", "ex-015", "ex-018", "ex-024"],
+    "relatedLetterIds": ["letter-004", "letter-005", "letter-006", "letter-007", "letter-009"],
     "publishStatus": "published"
   },
   {
@@ -16,9 +16,42 @@
     "title": "慰问信的结尾，如何保持真诚与克制",
     "description": "以林肯致比克斯比夫人为例，观察正式慰问信如何表达敬意。",
     "body": "慰问信的难处在于，语言必须承认痛苦的重量，又不能用过多辞藻覆盖对方的悲伤。正式结尾里的 sincerely 与 respectfully，提供了一种克制但不冷淡的表达方式。",
-    "tags": ["慰问", "敬意", "英文"],
-    "relatedExcerptIds": ["ex-005", "ex-006"],
+    "tags": ["慰问", "敬意", "英文", "结尾"],
+    "relatedExcerptIds": ["ex-006", "ex-007", "ex-008"],
     "relatedLetterIds": ["letter-003"],
+    "publishStatus": "published"
+  },
+  {
+    "id": "topic-003",
+    "slug": "love-letter-from-private-to-public",
+    "title": "情书里的私人深情与公共理想",
+    "description": "《与妻书》展示了中文情书如何从亲密称谓走向公共承担。",
+    "body": "《与妻书》的动人处，不只在于“如晤”的亲密，也在于它把爱一个人的心推展到天下人的爱。传统情书并不总是只写两个人的世界，有时它会把私人情感变成公共理想的起点。",
+    "tags": ["爱情", "公开信", "中文", "诀别"],
+    "relatedExcerptIds": ["ex-009", "ex-010", "ex-011"],
+    "relatedLetterIds": ["letter-004"],
+    "publishStatus": "published"
+  },
+  {
+    "id": "topic-004",
+    "slug": "friendship-letters-across-distance",
+    "title": "久别朋友之间，书信如何开口",
+    "description": "从白居易《与元九书》和奥斯汀家书中整理亲近、思念与轻快的开头。",
+    "body": "朋友之间的信，不一定要庄重。它可以用重复呼名制造临场感，也可以从一句玩笑和祝愿开始。久别时，反问能把时间的流逝写得很自然；日常通信中，轻巧的开头反而更见亲密。",
+    "tags": ["友情", "开头", "中文", "英文"],
+    "relatedExcerptIds": ["ex-001", "ex-002", "ex-024", "ex-025", "ex-028"],
+    "relatedLetterIds": ["letter-001", "letter-009", "letter-010"],
+    "publishStatus": "published"
+  },
+  {
+    "id": "topic-005",
+    "slug": "admonition-and-encouragement",
+    "title": "劝学、训诫与鼓励的书信短句",
+    "description": "从《诫子书》、曾国藩家书和梁启超家书中整理长辈劝告的语气。",
+    "body": "劝告类书信要有分寸：太轻则无力，太重则压人。《诫子书》用格言立住原则，曾国藩家书用俗语安慰家人，梁启超家书则先解释误会再表达立场。这些写法都值得拆开学习。",
+    "tags": ["训诫", "亲情", "中文", "古文"],
+    "relatedExcerptIds": ["ex-017", "ex-018", "ex-019", "ex-020", "ex-021", "ex-022"],
+    "relatedLetterIds": ["letter-006", "letter-007", "letter-008"],
     "publishStatus": "published"
   }
 ]
