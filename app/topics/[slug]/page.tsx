@@ -35,16 +35,19 @@ export default function TopicDetailPage({ params }: { params: { slug: string } }
   const letters = topic.relatedLetterIds.map(getLetterById).filter(isLetter);
 
   return (
-    <article className="mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
-      <p className="mb-3 text-sm font-medium text-seal-700">专题</p>
-      <h1 className="font-serif text-4xl font-semibold leading-tight text-ink-950 sm:text-5xl">{topic.title}</h1>
-      <p className="mt-5 text-lg leading-8 text-ink-800">{topic.description}</p>
-      <div className="mt-10 rounded-lg border border-paper-200 bg-white p-6 text-base leading-8 text-ink-800">{topic.body}</div>
+    <article className="sentence-grid bg-paper-50">
+      <div className="mx-auto max-w-5xl px-4 py-10 sm:px-6 sm:py-14 lg:px-8">
+      <section className="rounded-md bg-white p-5 text-ink-950 shadow-soft ring-1 ring-ink-950/10 sm:p-8">
+        <p className="mb-4 inline-flex rounded-md bg-gold-100 px-3 py-1 text-xs font-black text-gold-700">专题</p>
+        <h1 className="text-balance font-serif text-4xl font-semibold leading-tight sm:text-6xl">{topic.title}</h1>
+        <p className="mt-5 max-w-3xl text-lg leading-8 text-ink-650">{topic.description}</p>
+      </section>
+      <div className="mt-6 rounded-md bg-white p-6 text-base leading-8 text-ink-650 shadow-soft ring-1 ring-ink-950/10">{topic.body}</div>
 
       {excerpts.length ? (
-        <section className="mt-10">
-          <h2 className="font-serif text-2xl font-semibold text-ink-950">相关短句</h2>
-          <div className="mt-5 grid gap-5">
+        <section className="mt-8">
+          <h2 className="font-serif text-3xl font-semibold text-ink-950">相关短句</h2>
+          <div className="mt-5 grid gap-4 md:grid-cols-2">
             {excerpts.map((excerpt) => (
               <ExcerptCard excerpt={excerpt} key={excerpt.id} />
             ))}
@@ -53,15 +56,16 @@ export default function TopicDetailPage({ params }: { params: { slug: string } }
       ) : null}
 
       {letters.length ? (
-        <section className="mt-10">
-          <h2 className="font-serif text-2xl font-semibold text-ink-950">相关信件</h2>
-          <div className="mt-5 grid gap-5">
+        <section className="mt-8">
+          <h2 className="font-serif text-3xl font-semibold text-ink-950">相关信件</h2>
+          <div className="mt-5 grid gap-4">
             {letters.map((letter) => (
               <LetterCard letter={letter} key={letter.id} />
             ))}
           </div>
         </section>
       ) : null}
+      </div>
     </article>
   );
 }

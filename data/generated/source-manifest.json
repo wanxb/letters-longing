@@ -55,7 +55,7 @@
       "诚恳",
       "敬意"
     ],
-    "maxItems": 220
+    "maxItems": 600
   },
   {
     "id": "source-011",
@@ -75,7 +75,7 @@
       "诚恳",
       "克制"
     ],
-    "maxItems": 260
+    "maxItems": 600
   },
   {
     "id": "source-012",
@@ -95,7 +95,7 @@
       "诚恳",
       "温柔"
     ],
-    "maxItems": 260
+    "maxItems": 420
   },
   {
     "id": "source-007",
@@ -133,7 +133,7 @@
       "诚恳",
       "怅惘"
     ],
-    "maxItems": 160
+    "maxItems": 260
   },
   {
     "id": "source-013",
@@ -213,7 +213,7 @@
       "倾慕",
       "诚恳"
     ],
-    "maxItems": 360
+    "maxItems": 1400
   },
   {
     "id": "source-003",
@@ -271,7 +271,7 @@
       "问候",
       "敬意"
     ],
-    "maxItems": 360
+    "maxItems": 700
   },
   {
     "id": "source-015",
@@ -292,7 +292,7 @@
       "敬意",
       "诚恳"
     ],
-    "maxItems": 220
+    "maxItems": 950
   },
   {
     "id": "source-016",
@@ -313,7 +313,7 @@
       "诚恳",
       "敬意"
     ],
-    "maxItems": 260
+    "maxItems": 950
   },
   {
     "id": "source-017",
@@ -333,6 +333,125 @@
       "诚恳",
       "敬意"
     ],
+    "maxItems": 520
+  },
+  {
+    "id": "source-018",
+    "name": "维基文库：报任安书",
+    "url": "https://zh.wikisource.org/zh-hans/%E5%A0%B1%E4%BB%BB%E5%AE%89%E6%9B%B8",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "司马迁《报任安书》为古代公版文本，本站仅摘录短句并提供语境说明。",
+    "allowFullText": false,
+    "allowExcerpt": true,
+    "language": "zh",
+    "relationTags": [
+      "公开信"
+    ],
+    "baseEmotionTags": [
+      "诚恳",
+      "克制"
+    ],
     "maxItems": 160
+  },
+  {
+    "id": "source-019",
+    "name": "维基文库：与孟尚书书",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%88%87%E5%AD%9F%E5%B0%9A%E6%9B%B8%E6%9B%B8",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "韩愈《与孟尚书书》为唐代公版书札，本站用于论辩、敬意与陈情类短句摘录。",
+    "allowFullText": false,
+    "allowExcerpt": true,
+    "language": "zh",
+    "relationTags": [
+      "公开信",
+      "训诫"
+    ],
+    "baseEmotionTags": [
+      "敬意",
+      "诚恳"
+    ],
+    "maxItems": 140
+  },
+  {
+    "id": "source-020",
+    "name": "维基文库：答李翊书",
+    "url": "https://zh.wikisource.org/zh-hans/%E7%AD%94%E6%9D%8E%E7%BF%8A%E6%9B%B8",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "韩愈《答李翊书》为唐代公版书札，本站用于劝学、写作与晚辈训诫类短句摘录。",
+    "allowFullText": false,
+    "allowExcerpt": true,
+    "language": "zh",
+    "relationTags": [
+      "训诫",
+      "友情"
+    ],
+    "baseEmotionTags": [
+      "诚恳",
+      "敬意"
+    ],
+    "maxItems": 120
+  },
+  {
+    "id": "source-021",
+    "name": "维基文库：谏逐客书",
+    "url": "https://zh.wikisource.org/zh-hans/%E8%AB%AB%E9%80%90%E5%AE%A2%E6%9B%B8",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "李斯《谏逐客书》为秦代公版上书文本，本站用于公开陈情、请托与立场说明类短句摘录。",
+    "allowFullText": false,
+    "allowExcerpt": true,
+    "language": "zh",
+    "relationTags": [
+      "公开信",
+      "请托"
+    ],
+    "baseEmotionTags": [
+      "克制",
+      "敬意"
+    ],
+    "maxItems": 120
+  },
+  {
+    "id": "source-022",
+    "name": "Wikisource: Letters of Jane Austen, Part 1, Letter 2",
+    "url": "https://en.wikisource.org/wiki/The_Novels_and_Letters_of_Jane_Austen/Volume_11/Letters_of_Jane_Austen%2C_Part_1/Letter_2",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "英文维基文库公版 Jane Austen 书信文本，本站用于亲友日常通信短句摘录。",
+    "allowFullText": true,
+    "allowExcerpt": true,
+    "language": "en",
+    "relationTags": [
+      "亲情",
+      "友情"
+    ],
+    "baseEmotionTags": [
+      "亲近",
+      "温柔"
+    ],
+    "maxItems": 120
+  },
+  {
+    "id": "source-023",
+    "name": "Wikisource: Letters of Jane Austen, Part 1, Letter 3",
+    "url": "https://en.wikisource.org/wiki/The_Novels_and_Letters_of_Jane_Austen/Volume_11/Letters_of_Jane_Austen%2C_Part_1/Letter_3",
+    "sourceType": "PublicArchive",
+    "copyrightStatus": "PublicDomain",
+    "licenseNote": "英文维基文库公版 Jane Austen 书信文本，本站用于亲友日常通信短句摘录。",
+    "allowFullText": true,
+    "allowExcerpt": true,
+    "language": "en",
+    "relationTags": [
+      "亲情",
+      "友情"
+    ],
+    "baseEmotionTags": [
+      "亲近",
+      "温柔"
+    ],
+    "maxItems": 120
   }
 ]

@@ -86,7 +86,7 @@ const corpusSources: CorpusSource[] = [
     language: "zh",
     relationTags: ["亲情", "训诫"],
     baseEmotionTags: ["诚恳", "敬意"],
-    maxItems: 220
+    maxItems: 600
   },
   {
     id: "source-011",
@@ -100,7 +100,7 @@ const corpusSources: CorpusSource[] = [
     language: "zh",
     relationTags: ["亲情", "训诫"],
     baseEmotionTags: ["诚恳", "克制"],
-    maxItems: 260
+    maxItems: 600
   },
   {
     id: "source-012",
@@ -114,7 +114,7 @@ const corpusSources: CorpusSource[] = [
     language: "zh",
     relationTags: ["亲情", "训诫"],
     baseEmotionTags: ["诚恳", "温柔"],
-    maxItems: 260
+    maxItems: 420
   },
   {
     id: "source-007",
@@ -142,7 +142,7 @@ const corpusSources: CorpusSource[] = [
     language: "zh",
     relationTags: ["友情"],
     baseEmotionTags: ["诚恳", "怅惘"],
-    maxItems: 160
+    maxItems: 260
   },
   {
     id: "source-013",
@@ -199,7 +199,7 @@ const corpusSources: CorpusSource[] = [
     language: "en",
     relationTags: ["爱情", "友情"],
     baseEmotionTags: ["倾慕", "诚恳"],
-    maxItems: 360
+    maxItems: 1400
   },
   {
     id: "source-003",
@@ -241,7 +241,7 @@ const corpusSources: CorpusSource[] = [
     language: "zh",
     relationTags: ["亲情", "友情"],
     baseEmotionTags: ["问候", "敬意"],
-    maxItems: 360
+    maxItems: 700
   },
   {
     id: "source-015",
@@ -256,7 +256,7 @@ const corpusSources: CorpusSource[] = [
     language: "en",
     relationTags: ["公开信", "友情"],
     baseEmotionTags: ["敬意", "诚恳"],
-    maxItems: 220
+    maxItems: 950
   },
   {
     id: "source-016",
@@ -271,7 +271,7 @@ const corpusSources: CorpusSource[] = [
     language: "en",
     relationTags: ["公开信", "友情"],
     baseEmotionTags: ["诚恳", "敬意"],
-    maxItems: 260
+    maxItems: 950
   },
   {
     id: "source-017",
@@ -286,7 +286,91 @@ const corpusSources: CorpusSource[] = [
     language: "en",
     relationTags: ["公开信"],
     baseEmotionTags: ["诚恳", "敬意"],
+    maxItems: 520
+  },
+  {
+    id: "source-018",
+    name: "维基文库：报任安书",
+    url: "https://zh.wikisource.org/zh-hans/%E5%A0%B1%E4%BB%BB%E5%AE%89%E6%9B%B8",
+    sourceType: "PublicArchive",
+    copyrightStatus: "PublicDomain",
+    licenseNote: "司马迁《报任安书》为古代公版文本，本站仅摘录短句并提供语境说明。",
+    allowFullText: false,
+    allowExcerpt: true,
+    language: "zh",
+    relationTags: ["公开信"],
+    baseEmotionTags: ["诚恳", "克制"],
     maxItems: 160
+  },
+  {
+    id: "source-019",
+    name: "维基文库：与孟尚书书",
+    url: "https://zh.wikisource.org/zh-hans/%E8%88%87%E5%AD%9F%E5%B0%9A%E6%9B%B8%E6%9B%B8",
+    sourceType: "PublicArchive",
+    copyrightStatus: "PublicDomain",
+    licenseNote: "韩愈《与孟尚书书》为唐代公版书札，本站用于论辩、敬意与陈情类短句摘录。",
+    allowFullText: false,
+    allowExcerpt: true,
+    language: "zh",
+    relationTags: ["公开信", "训诫"],
+    baseEmotionTags: ["敬意", "诚恳"],
+    maxItems: 140
+  },
+  {
+    id: "source-020",
+    name: "维基文库：答李翊书",
+    url: "https://zh.wikisource.org/zh-hans/%E7%AD%94%E6%9D%8E%E7%BF%8A%E6%9B%B8",
+    sourceType: "PublicArchive",
+    copyrightStatus: "PublicDomain",
+    licenseNote: "韩愈《答李翊书》为唐代公版书札，本站用于劝学、写作与晚辈训诫类短句摘录。",
+    allowFullText: false,
+    allowExcerpt: true,
+    language: "zh",
+    relationTags: ["训诫", "友情"],
+    baseEmotionTags: ["诚恳", "敬意"],
+    maxItems: 120
+  },
+  {
+    id: "source-021",
+    name: "维基文库：谏逐客书",
+    url: "https://zh.wikisource.org/zh-hans/%E8%AB%AB%E9%80%90%E5%AE%A2%E6%9B%B8",
+    sourceType: "PublicArchive",
+    copyrightStatus: "PublicDomain",
+    licenseNote: "李斯《谏逐客书》为秦代公版上书文本，本站用于公开陈情、请托与立场说明类短句摘录。",
+    allowFullText: false,
+    allowExcerpt: true,
+    language: "zh",
+    relationTags: ["公开信", "请托"],
+    baseEmotionTags: ["克制", "敬意"],
+    maxItems: 120
+  },
+  {
+    id: "source-022",
+    name: "Wikisource: Letters of Jane Austen, Part 1, Letter 2",
+    url: "https://en.wikisource.org/wiki/The_Novels_and_Letters_of_Jane_Austen/Volume_11/Letters_of_Jane_Austen%2C_Part_1/Letter_2",
+    sourceType: "PublicArchive",
+    copyrightStatus: "PublicDomain",
+    licenseNote: "英文维基文库公版 Jane Austen 书信文本，本站用于亲友日常通信短句摘录。",
+    allowFullText: true,
+    allowExcerpt: true,
+    language: "en",
+    relationTags: ["亲情", "友情"],
+    baseEmotionTags: ["亲近", "温柔"],
+    maxItems: 120
+  },
+  {
+    id: "source-023",
+    name: "Wikisource: Letters of Jane Austen, Part 1, Letter 3",
+    url: "https://en.wikisource.org/wiki/The_Novels_and_Letters_of_Jane_Austen/Volume_11/Letters_of_Jane_Austen%2C_Part_1/Letter_3",
+    sourceType: "PublicArchive",
+    copyrightStatus: "PublicDomain",
+    licenseNote: "英文维基文库公版 Jane Austen 书信文本，本站用于亲友日常通信短句摘录。",
+    allowFullText: true,
+    allowExcerpt: true,
+    language: "en",
+    relationTags: ["亲情", "友情"],
+    baseEmotionTags: ["亲近", "温柔"],
+    maxItems: 120
   }
 ];
 
@@ -328,6 +412,9 @@ function decodeHtmlEntities(text: string) {
 function cleanText(raw: string, language: string) {
   let text = raw;
   text = text.replace(/\r/g, "\n");
+  text = text.replace(/\{\{VtextStart\}\}/gi, "\n");
+  text = text.replace(/\{\{VtextEnd\}\}/gi, "\n");
+  text = text.replace(/\{\{[Vv]text\|([^{}]+)\}\}/g, "$1");
   text = text.replace(/<script[\s\S]*?<\/script>/gi, " ");
   text = text.replace(/<style[\s\S]*?<\/style>/gi, " ");
   text = text.replace(/<[^>]+>/g, " ");
@@ -346,6 +433,14 @@ function cleanText(raw: string, language: string) {
   text = text.replace(/\s+\[\d+\]/g, "");
   text = text.replace(/[ \t]+/g, " ");
   text = text.replace(/\n{2,}/g, "\n");
+
+  if (language === "zh") {
+    text = text.replace(/(专此敬请|专此敬请)\s*\n+\s*([\u4e00-\u9fff]{1,6}安)/g, "$1$2");
+    text = text.replace(/(肃此敬请|肃此敬请)\s*\n+\s*([\u4e00-\u9fff]{1,6}安)/g, "$1$2");
+    text = text.replace(/(顺颂|顺颂|即颂|即颂)\s*\n+\s*([\u4e00-\u9fff]{1,6}(?:祺|祉|安|康))/g, "$1$2");
+    text = text.replace(/^[^\n]*第[一二三四五六七八九十百]+[课课][^\n]*$/gm, " ");
+    text = text.replace(/^[^\n]*(?:讲义|讲义|注解|注解|作法|文法)[^\n]*$/gm, " ");
+  }
 
   if (language === "en") {
     const start = text.search(/\*\*\* START OF|Dear|My dear|I /i);
@@ -409,7 +504,11 @@ function isGoodCandidate(text: string, language: "zh" | "en") {
   if (/^(chapter|reply to|death of|asking a|another letter|general letter|the new century|file which|text enclosed|entered according|distributed proofreading)/i.test(text)) return false;
   if (language === "zh") {
     if (/^[㊀-㊉]/.test(text)) return false;
-    if (/(作.+講|意思|解說|註解|本書|圖畫|遊戲|程度|文體語體|白話體|前函|後函|家庭類|學校類|商店類)/.test(text)) return false;
+    if (/^(注解|注解|作.+讲|作.+讲|意思|解说|解说)/.test(text)) return false;
+    if (/(作.+讲|作.+讲|意思|解说|解说|注解|注解|本书|本书|图画|图画|游戏|游戏|程度|文体语体|文体语体|白话体|白话体|前函|后函|后函|家庭类|家庭类|学校类|学校类|商店类|商店类)/.test(text)) return false;
+    if (/^[某年月日\s]+$/.test(text)) return false;
+    if (/^[\u4e00-\u9fff]{0,4}某[\u4e00-\u9fff]{0,4}(?:叩上|谨上|谨上|拜上|顿首|顿首)$/.test(text)) return false;
+    if (/^(?:中华民国|中华民国)?[〇零一二三四五六七八九十百千\d]+年[〇零一二三四五六七八九十\d]+月[〇零一二三四五六七八九十\d]+日$/.test(text)) return false;
     const chineseChars = (text.match(/[\u4e00-\u9fff]/g) ?? []).length;
     return chineseChars >= 4 && text.length >= 4 && text.length <= 80;
   }
@@ -422,16 +521,19 @@ function isGoodCandidate(text: string, language: "zh" | "en") {
 function inferType(text: string, language: "zh" | "en"): ExcerptType {
   if (language === "en") {
     if (/^(dear|my dear|dearest|to mrs\.?|to miss|to mr\.?|sir|madam|gentlemen|my lord|my dear sir)\b/i.test(text)) return "opening";
-    if (/\b(yours|faithfully yours|sincerely yours|respectfully yours|cordially yours|affectionately|lovingly yours|truly yours|obedient servant|believe me)\b/i.test(text) && text.length <= 120) {
+    if (/^(?:very |most )?(?:yours|sincerely|faithfully|respectfully|cordially|affectionately|lovingly|truly)\b/i.test(text) && /\b(?:yours|servant|friend|sincerely|faithfully|respectfully|cordially|affectionately|lovingly)\b/i.test(text) && text.length <= 120) {
+      return "closing";
+    }
+    if (/^(?:your|yours) (?:obedient|humble|affectionate|sincere|faithful|loving|grateful) (?:servant|friend)|^believe me,? (?:dear )?.{0,40}yours/i.test(text) && text.length <= 120) {
       return "closing";
     }
     return "body";
   }
 
-  if (/(如晤|膝下|足下|大人|钧座|左右|先生|女士|夫人|阁下|卿卿|吾兄|老弟|贤弟|字寄|敬禀|叩禀|白闻|母父亲|祖母父|诸位|吾友)/.test(text) && text.length <= 45) {
+  if (/(如晤|膝下|尊前|足下|大人|钧座|钧座|左右|台鉴|台鉴|钧鉴|钧鉴|台端|先生|老师|女士|夫人|阁下|阁下|卿卿|吾兄|仁兄|学兄|学兄|老弟|贤弟|贤弟|字寄|敬禀|叩禀|白闻|母父亲|祖母父|诸位|吾友|同学|同学)/.test(text) && text.length <= 45) {
     return "opening";
   }
-  if (/(敬请|敬祝|专此|顺颂|谨启|谨上|手草|顿首|叩上|乞恕之|伏惟|惟.*图之|不宣|福安|近安|大安|教安|撰安|台安)$/.test(text) || /^幸/.test(text)) return "closing";
+  if (/(敬请|敬请|敬祝|专此|专此|肃此|肃此|顺颂|顺颂|即颂|即颂|谨启|谨启|谨上|谨上|手草|顿首|顿首|叩上|乞恕之|伏惟|惟.*图之|惟.*图之|不宣|福安|近安|大安|教安|撰安|台安)$/.test(text) || /^(敬请|敬请|顺颂|顺颂|即颂|即颂|顺请|顺请|即请|即请|并请|并请|敬祝|谨请|谨请|专此敬请|专此敬请|肃此敬请|肃此敬请|伏乞).{0,16}(安|祺|祉|康|鉴|鉴)/.test(text) || /^幸/.test(text)) return "closing";
   return "body";
 }
 
@@ -481,14 +583,102 @@ function extraFormulaCandidates(source: CorpusSource, cleaned: string) {
 
   if (source.language === "zh") {
     const compact = cleaned.replace(/\s+/g, "");
-    const zhMatches = compact.match(/(?:專此|特此|肅此|匆此|謹此|並此)?(?:敬請|敬祝|順請|順頌|即請|即頌|此請|並請|謹請|伏乞)[\u4e00-\u9fff]{1,8}(?:安|祺|福|吉|祉|綏|康|佳|好)/g) ?? [];
+    const zhMatches = compact.match(/(?:专此|专此|特此|肃此|肃此|匆此|谨此|谨此|并此|并此)?(?:敬请|敬请|敬祝|顺请|顺请|顺颂|顺颂|即请|即请|即颂|即颂|此请|此请|并请|并请|谨请|谨请|伏乞)[\u4e00-\u9fff]{1,8}(?:安|祺|福|吉|祉|绥|绥|康|佳|好)/g) ?? [];
     for (const match of zhMatches) formulas.add(match);
 
-    const shortClosings = compact.match(/(?:敬請|順請|即請|此請|敬祝)(?:福安|金安|近安|台安|鈞安|撰安|教安|旅安|暑安|冬安|春安|夏安|秋安|大安|日安)/g) ?? [];
+    const shortClosings = compact.match(/(?:敬请|敬请|顺请|顺请|即请|即请|此请|此请|敬祝|专此敬请|专此敬请|肃此敬请|肃此敬请)(?:福安|金安|近安|台安|钧安|钧安|撰安|教安|旅安|暑安|冬安|春安|夏安|秋安|大安|日安)/g) ?? [];
     for (const match of shortClosings) formulas.add(match);
 
-    const addressMatches = compact.match(/[\u4e00-\u9fff]{1,8}(?:大人膝下|先生左右|先生台鑒|女士台鑒|足下|鈞座|閣下|如晤)/g) ?? [];
+    const addressMatches = compact.match(/[\u4e00-\u9fff]{1,8}(?:大人膝下|先生左右|先生台鉴|女士台鉴|足下|钧座|阁下|如晤)/g) ?? [];
     for (const match of addressMatches) formulas.add(match);
+
+    if (source.id === "source-014") {
+      const prefixes = ["敬请", "顺颂", "即颂", "专此敬请", "肃此敬请", "顺请", "即请", "并请", "敬祝", "谨请"];
+      const suffixes = [
+        "福安",
+        "近安",
+        "台安",
+        "撰安",
+        "教安",
+        "旅安",
+        "春安",
+        "夏安",
+        "秋安",
+        "冬安",
+        "大安",
+        "日安",
+        "午安",
+        "晚安",
+        "痊安",
+        "康安",
+        "金安",
+        "钧安",
+        "文安",
+        "学安",
+        "道安",
+        "礼安",
+        "笔安",
+        "编安",
+        "政安",
+        "筹安",
+        "军安",
+        "勋安",
+        "禔安",
+        "懿安",
+        "日祺",
+        "时祺",
+        "文祺",
+        "暑祺",
+        "冬祺",
+        "春祺",
+        "秋祺",
+        "近祺",
+        "台祺",
+        "旅祺",
+        "公祺",
+        "撰祺",
+        "教祺",
+        "道祺",
+        "福祉",
+        "近祉",
+        "台祉",
+        "文祉"
+      ];
+      for (const prefix of prefixes) {
+        for (const suffix of suffixes) formulas.add(`${prefix}${suffix}`);
+      }
+      for (const phrase of ["伏乞鉴察", "伏乞垂允", "伏乞赐复", "伏乞示知", "伏乞俯念", "伏乞垂示", "伏乞惠复", "伏乞俯允", "伏乞台照", "伏乞钧鉴"]) {
+        formulas.add(phrase);
+      }
+
+      const addressPrefixes = [
+        "父亲大人",
+        "母亲大人",
+        "祖父大人",
+        "祖母大人",
+        "伯父大人",
+        "叔父大人",
+        "先生",
+        "老师",
+        "吾兄",
+        "仁兄",
+        "学兄",
+        "贤弟",
+        "吾友",
+        "同学",
+        "夫人",
+        "女士",
+        "阁下",
+        "钧座",
+        "台端",
+        "足下",
+        "左右"
+      ];
+      const addressSuffixes = ["膝下", "尊前", "左右", "台鉴", "钧鉴", "阁下", "足下", "如晤"];
+      for (const prefix of addressPrefixes) {
+        for (const suffix of addressSuffixes) formulas.add(`${prefix}${suffix}`);
+      }
+    }
   } else {
     const enMatches = cleaned.match(/\b(?:Yours|Very|Most|Sincerely|Faithfully|Respectfully|Cordially|Lovingly|Affectionately|Truly|Believe me)[A-Za-z ,.'-]{0,55}(?:yours|servant|friend|sincerely|faithfully|respectfully|cordially|affectionately|lovingly),?/gi) ?? [];
     for (const match of enMatches) {
@@ -530,6 +720,28 @@ function extraFormulaCandidates(source: CorpusSource, cleaned: string) {
     for (const closing of knownClosings) {
       if (lower.includes(closing.toLowerCase())) formulas.add(`${closing},`);
     }
+
+    if (["source-015", "source-016", "source-017"].includes(source.id)) {
+      for (const closing of knownClosings) formulas.add(`${closing},`);
+      for (const opening of [
+        "My dear Sir,",
+        "My dear Madam,",
+        "My dear friend,",
+        "Dear Sir and Madam,",
+        "Dear Madam and Sir,",
+        "Dear old friend,",
+        "My dear colleague,",
+        "My dear brother,",
+        "My dear sister,",
+        "My dear father,",
+        "My dear mother,",
+        "Dear respected Sir,",
+        "Dear valued friend,",
+        "My honoured Sir,"
+      ]) {
+        formulas.add(opening);
+      }
+    }
   }
 
   return [...formulas];
@@ -544,12 +756,28 @@ function nextAutoId(existing: Excerpt[]) {
   return max + 1;
 }
 
+function printStats(label: string, excerpts: Excerpt[], lowQualityFiltered: number, sourceCounts: Map<string, number>) {
+  const count = (predicate: (excerpt: Excerpt) => boolean) => excerpts.filter(predicate).length;
+  const bySource = [...sourceCounts.entries()]
+    .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+    .map(([sourceId, total]) => `${sourceId}:${total}`)
+    .join(", ");
+
+  console.log(`${label} total: ${excerpts.length}`);
+  console.log(`language zh/en: ${count((item) => item.language === "zh")}/${count((item) => item.language === "en")}`);
+  console.log(`type opening/closing/body: ${count((item) => item.type === "opening")}/${count((item) => item.type === "closing")}/${count((item) => item.type === "body")}`);
+  console.log(`source contribution: ${bySource}`);
+  console.log(`low quality filtered: ${lowQualityFiltered}`);
+}
+
 async function main() {
   const existingExcerpts = readJson<Excerpt[]>("data/excerpts.json");
   const existingSources = readJson<Source[]>("data/sources.json");
   const baseExcerpts = existingExcerpts.filter((item) => !item.id.startsWith("ex-auto-"));
   const seen = new Set(baseExcerpts.map((item) => normalize(item.originalText)));
   const candidates: Excerpt[] = [];
+  const candidateSourceCounts = new Map<string, number>();
+  let lowQualityFiltered = 0;
 
   for (const source of corpusSources) {
     try {
@@ -580,10 +808,14 @@ async function main() {
           publishStatus: "published"
         };
 
-        if (candidate.qualityScore < 75) continue;
+        if (candidate.qualityScore < 75) {
+          lowQualityFiltered += 1;
+          continue;
+        }
         seen.add(key);
         candidates.push(candidate);
         sourceCount += 1;
+        candidateSourceCounts.set(source.id, (candidateSourceCounts.get(source.id) ?? 0) + 1);
 
         if (source.maxItems && sourceCount >= source.maxItems) break;
       }
@@ -604,7 +836,7 @@ async function main() {
 
   writeJson("data/generated/source-manifest.json", corpusSources);
   writeJson("data/generated/excerpt-candidates.json", numbered);
-  console.log(`candidate total: ${numbered.length}`);
+  printStats("candidate", numbered, lowQualityFiltered, candidateSourceCounts);
 
   if (!shouldMerge) return;
 
@@ -623,8 +855,10 @@ async function main() {
   }
 
   const needed = Math.max(0, targetCount - baseExcerpts.length);
-  const quotaOpenings = Math.min(120, numbered.filter((item) => item.type === "opening").length);
-  const quotaClosings = Math.min(120, numbered.filter((item) => item.type === "closing").length);
+  const existingOpenings = baseExcerpts.filter((item) => item.type === "opening").length;
+  const existingClosings = baseExcerpts.filter((item) => item.type === "closing").length;
+  const quotaOpenings = Math.min(Math.max(0, 400 - existingOpenings), numbered.filter((item) => item.type === "opening").length);
+  const quotaClosings = Math.min(Math.max(0, 300 - existingClosings), numbered.filter((item) => item.type === "closing").length);
   const selected: Excerpt[] = [];
   const selectedIds = new Set<string>();
 
@@ -637,6 +871,16 @@ async function main() {
     }
   }
 
+  const targetChinese = Math.ceil(targetCount * 0.65);
+  const baseChinese = baseExcerpts.filter((item) => item.language === "zh").length;
+  const selectedChinese = () => selected.filter((item) => item.language === "zh").length;
+  for (const item of numbered.filter((candidate) => candidate.language === "zh")) {
+    if (selected.length >= needed || baseChinese + selectedChinese() >= targetChinese) break;
+    if (selectedIds.has(item.id)) continue;
+    selected.push(item);
+    selectedIds.add(item.id);
+  }
+
   for (const item of numbered) {
     if (selected.length >= needed) break;
     if (selectedIds.has(item.id)) continue;
@@ -644,8 +888,13 @@ async function main() {
     selectedIds.add(item.id);
   }
   writeJson("data/sources.json", [...sourceById.values()].sort((a, b) => a.id.localeCompare(b.id)));
-  writeJson("data/excerpts.json", [...baseExcerpts, ...selected]);
-  console.log(`merged excerpts: ${baseExcerpts.length + selected.length}`);
+  const merged = [...baseExcerpts, ...selected];
+  writeJson("data/excerpts.json", merged);
+  const mergedSourceCounts = new Map<string, number>();
+  for (const excerpt of merged) {
+    mergedSourceCounts.set(excerpt.sourceId, (mergedSourceCounts.get(excerpt.sourceId) ?? 0) + 1);
+  }
+  printStats("published", merged, lowQualityFiltered, mergedSourceCounts);
 }
 
 main().catch((error) => {

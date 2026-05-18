@@ -31,8 +31,8 @@ html {
 
 body {
   margin: 0;
-  background: #fbfaf7;
-  color: #151412;
+  background: #f7f9fc;
+  color: #101827;
   font-family: var(--font-sans);
 }
 
@@ -42,8 +42,8 @@ a {
 }
 
 ::selection {
-  background: #f5e4e1;
-  color: #151412;
+  background: #dff6fb;
+  color: #101827;
 }
 
 .focus-ring {
@@ -52,4 +52,11 @@ a {
 
 .text-balance {
   text-wrap: balance;
+}
+
+.sentence-grid {
+  background-image:
+    linear-gradient(rgba(21, 94, 117, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(21, 94, 117, 0.08) 1px, transparent 1px);
+  background-size: 28px 28px;
 }

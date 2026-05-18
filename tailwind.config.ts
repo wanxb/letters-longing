@@ -6,34 +6,39 @@ const config: Config = {
     extend: {
       colors: {
         ink: {
-          950: "#151412",
-          800: "#38342e",
-          650: "#575047",
-          600: "#686158"
+          950: "#101827",
+          900: "#162033",
+          800: "#25324a",
+          650: "#526070",
+          600: "#687684"
         },
         paper: {
-          50: "#fbfaf7",
-          100: "#f4f0e8",
-          150: "#eee7dc",
-          200: "#e1d5c4",
-          300: "#cdbda7"
+          50: "#f7f9fc",
+          100: "#eef3f7",
+          150: "#e7edf3",
+          200: "#d5e0ea",
+          300: "#b9c9d7"
         },
         seal: {
-          700: "#8b2f2b",
-          600: "#a53d38",
-          100: "#f5e4e1"
+          700: "#9a3412",
+          600: "#c2410c",
+          100: "#ffedd5"
         },
         moss: {
-          700: "#33564b",
-          100: "#e4eee9"
+          700: "#155e75",
+          100: "#dff6fb"
         },
         bluegrey: {
-          700: "#3d5366",
-          100: "#e7eef3"
+          700: "#315174",
+          100: "#e5eef8"
         },
         gold: {
-          700: "#8b6a2f",
-          100: "#f3ead7"
+          700: "#7c3aed",
+          100: "#ede9fe"
+        },
+        coral: {
+          700: "#be123c",
+          100: "#ffe4e6"
         }
       },
       fontFamily: {
@@ -41,8 +46,8 @@ const config: Config = {
         serif: ["var(--font-serif)", "Georgia", "serif"]
       },
       boxShadow: {
-        soft: "0 18px 45px rgba(33, 28, 22, 0.08)",
-        editorial: "0 24px 80px rgba(21, 20, 18, 0.10)"
+        soft: "0 14px 40px rgba(16, 24, 39, 0.08)",
+        editorial: "0 24px 80px rgba(16, 24, 39, 0.14)"
       }
     }
   },

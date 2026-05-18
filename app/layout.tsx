@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { BookOpenText, Brackets, Home, Library, PenLine } from "lucide-react";
 import "./globals.css";
 
 const navItems = [
-  { href: "/openings", label: "启笺" },
-  { href: "/closings", label: "收笔" },
-  { href: "/relations/love", label: "情谊" },
-  { href: "/letters", label: "书信" },
-  { href: "/topics", label: "专题" }
+  { href: "/", label: "句库", icon: Home },
+  { href: "/openings", label: "开头", icon: Brackets },
+  { href: "/closings", label: "结尾", icon: PenLine },
+  { href: "/letters", label: "信件", icon: Library },
+  { href: "/topics", label: "专题", icon: BookOpenText }
 ];
 
 export const metadata: Metadata = {
@@ -23,19 +24,23 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="zh-CN">
       <body>
-        <header className="sticky top-0 z-30 border-b border-ink-950/10 bg-paper-50/90 backdrop-blur-xl">
-          <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-4 sm:px-6 lg:px-8">
-            <Link className="focus-ring inline-flex shrink-0 items-baseline gap-2 rounded-md whitespace-nowrap" href="/">
-              <span className="font-serif text-2xl font-semibold text-ink-950">尺素</span>
-              <span className="hidden text-xs uppercase tracking-[0.18em] text-ink-600 sm:inline">Letters & Longing</span>
+        <header className="sticky top-0 z-30 border-b border-ink-950/10 bg-white/88 backdrop-blur-xl">
+          <div className="mx-auto flex max-w-7xl items-center justify-between gap-3 px-4 py-3 sm:px-6 lg:px-8">
+            <Link className="focus-ring inline-flex min-h-11 shrink-0 items-center gap-3 rounded-md whitespace-nowrap" href="/">
+              <span className="grid size-9 place-items-center rounded-md bg-moss-700 text-sm font-black text-white">尺</span>
+              <span>
+                <span className="block text-sm font-bold leading-4 text-ink-950">尺素句库</span>
+                <span className="hidden text-xs leading-4 text-ink-600 sm:block">Openings, closings, lines</span>
+              </span>
             </Link>
-            <nav aria-label="主导航" className="flex min-w-0 items-center gap-1 overflow-x-auto text-sm font-medium text-ink-650">
+            <nav aria-label="主导航" className="flex min-w-0 items-center gap-1 overflow-x-auto text-sm font-semibold text-ink-650">
               {navItems.map((item) => (
                 <Link
-                  className="focus-ring whitespace-nowrap rounded-full px-2.5 py-2 transition hover:bg-white hover:text-ink-950 sm:px-3"
+                  className="focus-ring inline-flex min-h-11 items-center gap-2 whitespace-nowrap rounded-md px-2.5 transition hover:bg-paper-100 hover:text-ink-950 sm:px-3"
                   href={item.href}
                   key={item.href}
                 >
+                  <item.icon aria-hidden="true" size={16} />
                   {item.label}
                 </Link>
               ))}
@@ -43,10 +48,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
         <main>{children}</main>
-        <footer className="border-t border-paper-200 bg-ink-950 text-paper-150">
-          <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-7 text-sm sm:px-6 lg:px-8">
-            <p className="font-serif text-base text-white">尺素</p>
-            <Link className="focus-ring rounded-md underline underline-offset-4 hover:text-white" href="/about">
+        <footer className="border-t border-ink-950/10 bg-white text-ink-650">
+          <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-8 text-sm sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8">
+            <p>短句优先：先找开头，再定结尾，正文与完整信件作为语境补充。</p>
+            <Link className="focus-ring rounded-md font-semibold text-ink-950 underline underline-offset-4 hover:text-moss-700" href="/about">
               关于
             </Link>
           </div>
