@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: "%s | 尺素"
   },
   description: "尺素整理公开书信、书信短句与表达专题。",
-  metadataBase: new URL("https://letters-longing.pages.dev")
+  metadataBase: new URL("https://wanxb.github.io/letters-longing")
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

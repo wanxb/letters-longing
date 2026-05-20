@@ -8,3 +8,4 @@ public/search-index.json
 public/sitemap.xml
 public/robots.txt
 .next-dev*.log
+.claude
