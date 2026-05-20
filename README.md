@@ -2,8 +2,8 @@
 
 一个书信美学资料库，用精选内容、清晰来源和优雅阅读体验，帮助用户找到合适的书信表达。
 
-| 首页句库 | 开头馆 |
-|---------|--------|
+| 首页句库                           | 开头馆                                   |
+| ---------------------------------- | ---------------------------------------- |
 | ![首页预览](docs/preview-home.png) | ![开头馆预览](docs/preview-openings.png) |
 
 ## 功能
@@ -107,4 +107,4 @@ npm run build
 # 产物位于 out/ 目录
 ```
 
-线上地址：[letters-longing.pages.dev](https://letters-longing.pages.dev)
+线上地址：[letters-longing](https://wanxb.github.io/letters-longing/)
